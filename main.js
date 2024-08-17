@@ -1,0 +1,10 @@
+let num1 = document.querySelector(".numRa");
+let box = document.querySelector(".box");
+let randomName = prompt(`Ism kiriting`)
+num1.textContent = randomName;
+num1.style.color = "yellow";
+box.style.fontSize = "100px";
+box.style.backgroundColor = "purple";
+box.style.marginTop = "150px";
+box.style.display = "flex";
+box.style.justifyContent = "center";
